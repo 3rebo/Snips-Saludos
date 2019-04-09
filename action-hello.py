@@ -30,7 +30,7 @@ def subscribe_intent_callback(hermes, intentMessage):
 
 def action_wrapper(hermes, intentMessage, conf):
     current_session_id = intentMessage.session_id
-    hermes.publish_end_session(current_session_id, "Esto ya funciona!")
+    hermes.publish_end_session(current_session_id, "Hola Mundo")
 
 
 if __name__ == "__main__":
